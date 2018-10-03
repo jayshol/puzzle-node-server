@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: AfRWb1NnZg5h/0ZPrbAG5EHU+eoNXB/5cKHR2MuBT4SW5lN2oeTe0SfJ8YqXvbjBm2VYDLZZpG4SO7VcSKE2iKxDUBX3SfQmQgoOghxLO3MvzBf0t/3yUS8ejVvsLlH3KyTGS19qOJq+mq7IoSC2CL9vNrwrWHdbqlz7dpLMWCc1P2AKOe/BqTPi668XBinuxF8XfK9PFVQzew20SxWQCSEQESMRYvQkHsToDo8wN26j4sXLcwdJ0NK42faSVQ8i9pOk1QvNkjQhpMnx+KueAjA9HXfS5DkbmKldNRTbmALEL7vYpqFVFTJBGmsjtHiX0fNZaZFvx0PYy8sVqPxJiR2f5li9qgXHeVj7kXPnPJugJ7O34LH1xZOW1D3+sqUFPEvXYpzzuL7Smt8H0/VaWKZPF5fOXZhDmjA/sNoGZzxtDLB90MfZK+MXw5DAGeRtEQSO0j7Db2VLDq7p0cM9uPkipIbqejqa3awCkXnlQH3ae5RcGYJgWtyZ3OnHupyRq5VBmODImOJVza0DxUGQG6csv2NdYBeV2LwRUNm7L0ekct634t56wk8b5V/2+nA5AC4y3H+0+0E12Dd+C3GqYK724GaYEzupYwbAMLv18SY5YQATKUFvsj+cJ8zQc5JliLgGbbHe8Q+Gwzd5GvgfQt3gkkQ5DQrKf6i8brx+Mt0=
+  app: immense-mountain-98094
+  on:
+    repo: jayshol/puzzle-node-server
