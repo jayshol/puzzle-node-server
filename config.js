@@ -1,4 +1,4 @@
-exports.CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || 'https://fathomless-plains-59362.herokuapp.com';
+exports.CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || 'https://jigsaw-puzzle-app.herokuapp.com';
 //exports.CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || 'http://localhost:3000';
 exports.DATABASE_URL = process.env.DATABASE_URL || 'mongodb://jayshol:shiridibaba123@ds155862.mlab.com:55862/puzzle-database';
 //exports.DATABASE_URL = process.env.DATABASE_URL || 'mongodb://localhost/jwt-auth-demo';
